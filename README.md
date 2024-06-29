@@ -1,51 +1,25 @@
 # Task-Together
 
-Visualize and realize your vision with **Task-Together**, a productivity application that allows you to organize your tasks and projects using boards, lists and cards.
+Task-Together is a full stack application built with Next.js 14, TypeScript, React, TailwindCSS, PostgreSQL, Prisma ORM, Clerk for authentication, Stripe API for payment handling, Zustand for state management, and Shadcn/UI for component collection.
 
-Whether you are using individually or collaborating with a team, you can use this app to set goals, track progress and manage deadlines.
+## Features
 
-# Description
+- Multi-user real-time todo functionality
+- Next.js 14 for server-side rendering and routing
+- TypeScript for type safety
+- React for building user interfaces
+- TailwindCSS for styling
+- PostgreSQL and Prisma ORM for database management
+- Clerk for authentication and user management
+- Stripe API for handling payments
+- Zustand for efficient state management
+- Shadcn/UI for a collection of reusable components
 
-Based on the kanban method, this app is a tool to visualize workflow in three steps:
+## Getting Started
 
-1. To Do
-2. In Progress
-3. Done
-
-While using only three components:
-
-1. **Boards**, where tasks are organized
-2. **Lists**, displays the different stages of a task (To Do, In Progress, Done)
-3. **Cards**, which represent tasks, ideas and information
-
-Uses **Next.js 14**, with features such as [Server Actions](https://nextjs.org/blog/next-14#server-actions-stable).
-
-# Work-in-Progress
-
-TODO:
-
-- [x] Boards
-- [x] Lists
-- [x] Cards
-- [x] Audit Log
-- [ ] Settings
-- [ ] Integrate Freemium Model (just for practice)
-
-# Technologies:
-
-- Next.JS 14
-- TypeScript
-- React
-- TailwindCSS
-- PostgreSQL and Prisma ORM for database
-- Clerk for authentication
-- Stripe API for payment handling
-- zustand for state management
-- shadcn/ui for component collection
-
-# Specifications
-
-- User can **create**, **read**, **update** and **delete** boards
-- User can **create**, **read**, **update** and **delete** lists
-- User can **create**, **read**, **update** and **delete** cards
-- Users can view activity history with _audit logs_
+1. Clone the repository: `git clone https://github.com/your-username/to-do.git`
+2. Install dependencies: `npm install`
+3. Set up the PostgreSQL database and configure the connection in the `.env` file.
+4. Run database migrations: `npx prisma migrate dev`
+5. Start the development server: `npm run dev`
+6. Open your browser and navigate to `http://localhost:3000`
