@@ -4,8 +4,6 @@ Visualize and realize your vision with **Task-Together**, a productivity applica
 
 Whether you are using individually or collaborating with a team, you can use this app to set goals, track progress and manage deadlines.
 
-Inspired by [Kanban](<https://en.wikipedia.org/wiki/Kanban_(development)>), (看板, meaning signboard or billboard in Japanese), a tool used to both visualize and optimize the flow of work. See [kanban section](#kanban) to learn more.
-
 # Description
 
 Based on the kanban method, this app is a tool to visualize workflow in three steps:
